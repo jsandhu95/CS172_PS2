@@ -41,6 +41,7 @@ Running this function requires 3 command line arguments.
 2. The second is the path to the file containing the queries. 
 3. The third is the name of the results file. The print_results() function will create a file of a specified name if one doesn't exist. If one does exist, it will over-write the contents of that file with the top 20 results retrieved from the retrieval model.
 Example: python VSM.py <data-directory> <query-file> <results-file>
+Example: python VSM.py data data/query_list.txt vsm_results.txt
 
 
 
@@ -66,6 +67,7 @@ Running this function requires 3 command line arguments.
 2. The second is the path to the file containing the queries. 
 3. The third is the name of the results file. The print_results() function will create a file of a specified name if one doesn't exist. If one does exist, it will over-write the contents of that file with the top 20 results retrieved from the retrieval model.
 Example: python LM-unigram.py <data-directory> <query-file> <results-file>
+Example: python LM-unigram.py data data/query_list.txt lm_results.txt
 
 
 
